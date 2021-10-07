@@ -1,7 +1,7 @@
 :root{
     --primary: #A435F0;
-    --primary-light: #D0B8E0;
     --primary-dark: #590f8a;
+    --primary-light: #D0B8E0;
 }
 
 *{
@@ -12,7 +12,9 @@
 }
 
 body{
+    width: calc(100vw - 7px);
     padding: 20px 50px 50px 50px;
+    box-sizing: border-box;
 }
 
 header{
@@ -36,6 +38,7 @@ article{
     justify-content: center;
     align-items: center;
     background-color: var(--primary-light);
+    color: #000;
     font-size: 14pt;
     font-weight: 600;
     border-radius: 5px;
@@ -55,4 +58,16 @@ article{
     top: 0;
     left: 0;
     background-color: #FFF;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: var(--primary-light);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-dark);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--primary);
 }

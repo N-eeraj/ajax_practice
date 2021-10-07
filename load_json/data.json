@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "name": "John Doe",
+            "role": "UI/UX Designer",
+            "exp": 3,
+            "img": "https://allworldpm.com/wp-content/uploads/2016/10/230x230-avatar-dummy-profile-pic.jpg"
+        },
+        {
+            "name": "Jack Smith",
+            "role": "Front-End Developer",
+            "exp": 2,
+            "img": "https://skiblue.co.uk/wp-content/uploads/2015/06/dummy-profile.png"
+        },
+        {
+            "name": "Chris Rudd",
+            "role": "Back-End Developer",
+            "exp": 9,
+            "img": "https://www.pngitem.com/pimgs/m/272-2720656_user-profile-dummy-hd-png-download.png"
+        },
+        {
+            "name": "Sam Simmons",
+            "role": "MERN Stack Developer",
+            "exp": 1,
+            "img": "https://rajeshindia-production.s3.amazonaws.com/uploads/management/image/3/ImageDrjpg.jpg"
+        },
+        {
+            "name": "Kate Larson",
+            "role": "Product Designer",
+            "exp": 7,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxFu04gDvRAa2gfz5nE0rnPKZ6r6Ow7KvuAg&usqp=CAU"
+        },
+        {
+            "name": "Jane Watson",
+            "role": "Project Manager",
+            "exp": 3,
+            "img": "https://us.123rf.com/450wm/pandavector/pandavector1901/pandavector190105596/126045803-vector-design-of-avatar-and-dummy-logo-collection-of-avatar-and-image-stock-symbol-for-web-.jpg?ver=6"
+        }
+    ]
+}

@@ -32,6 +32,9 @@ section{
     animation: tilt infinite 500ms;
     animation-play-state: running;
 }
+#btn-container button:hover{
+    animation: none;
+}
 
 #result{
     padding: 25px;
