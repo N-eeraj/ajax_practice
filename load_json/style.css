@@ -28,6 +28,7 @@
 .profile-card img{
     width: 125px;
     height: 125px;
+    background-color: #FFF;
     box-shadow: 0 1px 10px var(--primary-dark);
     border-radius: 50%;
     transform: translateY(-50px);
