@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section{
+    width: 250px;
+    height: 250px;
+    border: 3px solid var(--primary);
+    border-radius: 5px;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+#btn-container button{
+    padding: 10px 25px;
+    color: var(--primary-dark);
+    font-size: 20pt;
+    border-radius: 6px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    animation: tilt infinite 500ms;
+    animation-play-state: running;
+}
+
+#result{
+    padding: 25px;
+    box-sizing: border-box;
+    color: var(--primary-dark);
+}
+
+@keyframes tilt{
+    25%{
+        transform: rotateZ(-1deg);
+    }
+    75%{
+        transform: rotateZ(1deg);
+    }
+}
